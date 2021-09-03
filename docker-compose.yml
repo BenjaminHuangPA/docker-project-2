@@ -5,8 +5,6 @@ services:
   image: huan1398/simplewhale
   ports:
   - 5000:5000
-  volumes:
-  - ./:/app
 
  mysqldb:
   image: mysql
